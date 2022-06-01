@@ -1,15 +1,19 @@
 {
-  "name": "convenia/timeliner",
+  "name": "taam/timeliner",
   "license": "MIT",
-  "description": "Make a timeline in DynamoDB, mirror your models to timnelineformat",
+  "description": "Make a timeline in DynamoDB, mirror your models to timnelineformat. Original S",
   "keywords": [
     "timeline",
     "mirror",
     "ModelReflection",
     "Laravel"
   ],
-  "homepage": "http://github.com/convenia/timeliner",
+  "homepage": "http://github.com/miladmodaresi/laravel-timeliner",
   "authors": [
+    {
+      "name": "Milad Modaresi",
+      "email": "miladmodaresi525@gmail.com"
+    },
     {
       "name": "Victor Ventura",
       "email": "euventura@gmail.com"
@@ -25,13 +29,13 @@
     }
   ],
   "support": {
-    "issues": "https://github.com/convenia/timeliner/issues",
-    "source": "https://github.com/convenia/timeliner"
+    "issues": "https://github.com/miladmodaresi/laravel-timeliner/issues",
+    "source": "https://github.com/miladmodaresi/laravel-timeliner"
   },
   "require": {
-    "php": ">=7",
+    "php": ">=8",
     "baopham/dynamodb": "^1.6",
-    "illuminate/support": "~5.0|5.1|5.2|~5.3|~5.4|~5.5"
+    "illuminate/support": "^7.0|^8.0|^9.0"
   },
   "require-dev": {
     "codacy/coverage": "^1.0",
