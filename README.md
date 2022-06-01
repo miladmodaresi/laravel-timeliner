@@ -14,7 +14,7 @@ Create a timeline Mirroring your models or add standalone events
 
 ## Install
 ```bash
-composer require convenia/timeliner
+composer require taam/timeliner
 ```
 
 ###  publish and register
